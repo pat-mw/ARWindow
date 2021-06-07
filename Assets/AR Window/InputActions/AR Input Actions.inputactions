@@ -1,0 +1,63 @@
+{
+    "name": "AR Input Actions",
+    "maps": [
+        {
+            "name": "Touchscreen",
+            "id": "fa1446f9-66f3-43b9-91c6-d034dcaa7435",
+            "actions": [
+                {
+                    "name": "tap",
+                    "type": "PassThrough",
+                    "id": "66743e3d-5228-4d89-a82c-4a2195ef0bbf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                },
+                {
+                    "name": "touchPos",
+                    "type": "Value",
+                    "id": "7c549c75-b9d9-4268-88a3-121b807a93f0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "23a66a49-de93-4adb-97c1-74bbdf687a2e",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "257928fb-ea5f-40ea-8666-a96eb35bdeed",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3eb3774f-3958-410a-bc1c-3bca744fb09f",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

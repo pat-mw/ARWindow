@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/AR Window/Scenes/TapToPlace.unity
+    guid: 3c380e7932c27a44c93d0d723f8abc0a
+  - enabled: 0
+    path: Assets/AR Window/Scenes/ImageTracking.unity
+    guid: fd3a6f63da155314ebd0c95ae07ba6d6
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: dd14ced4c46a989419724130c1447ce9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d8e7ba134030376469691accc2852734, type: 2}
